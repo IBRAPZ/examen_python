@@ -33,7 +33,7 @@ while True:
             else:
                 print("Posición fuera de rango.")
         except ValueError:
-            print("❌ Entrada inválida.")
+            print("Entrada inválida.")
 
     elif opcion == "3":
         num = input("Numero que deseas eliminar: ")
