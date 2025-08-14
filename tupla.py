@@ -2,10 +2,10 @@
 
 entrada = input("Escribe 4 números separados por comas: ")
 
-# Separar los números y convertirlos a enteros
+
 numeros = tuple(int(n) for n in entrada.split(","))
 
-# Calcular promedio, máximo y mínimo
+
 promedio = sum(numeros) / len(numeros)
 maximo = max(numeros)
 minimo = min(numeros)

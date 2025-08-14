@@ -12,7 +12,7 @@ def clasificar_edad(edad: int) -> str:
     else:
         return "Adulto mayor"
 
-# Solicita la edad al usuario (sin manejo de errores)
+
 edad_usuario = int(input("Ingrese su edad: "))
 resultado = clasificar_edad(edad_usuario)
 print(f"Clasificación: {resultado}")
